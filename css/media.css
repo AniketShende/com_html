@@ -1,0 +1,305 @@
+@media only screen and (max-width: 767px) {
+	
+/* header section*/
+	
+	header{
+		height:auto;		
+	}
+	.header-nav{
+		display:none;
+	}
+	.hero-text h1{
+		font-size: 45px;
+		position: relative;
+	}
+	.hero-text h1:after{
+		content:"";
+		position: absolute;
+		display: inline-block;
+		width:44px;
+		height:6px;
+		background-color:#f1c71d;
+		left:48%;
+		top:150px;
+		margin-left: 0px; 
+		bottom:0;
+	}
+	.hero-text p{
+		font-size:23px;
+	}
+	.hero-text a{
+		font-size: 26px;
+		line-height: 50px;
+	}
+	.hero-text{
+		margin-top: 50px;
+		line-height: 0px;
+		padding-bottom: 40px;
+	}
+	.nav-arrow{
+		margin-top: 60px;
+	}
+/*featured section*/
+	.featured-colum{
+		margin-left: 40%;
+		display: inline-block;
+	}
+	
+	.featured-section{
+		padding: 0px;
+	}
+	.featured-colum2{
+		margin-top: 0px;
+	}
+
+	.img-ul {
+		float:none;
+		
+		margin: 0px;
+		padding:0px;
+
+	}
+	.img-ul li{
+		width: 180px;
+		margin: 0px;
+		padding:2px;
+		
+	}
+/*primary container*/
+	.prim-container{
+		
+		width: 71%;
+	}
+
+	.prim-container p, li{
+		font-size: 23px;
+
+	}
+	.prim-container a{
+		font-size: 25px;
+	}
+	.prim-container-title, .prim-container-title a{
+		font-size: 37px;
+	}
+	.prim-container-title{
+		position: relative;
+	}
+	.prim-container-title h2:after{
+		content:"";
+		position: absolute;
+		display: inline-block;
+		width:44px;
+		height:6px;
+		background-color:#f1c71d;
+		left:48%;
+		top:180px;
+		margin-left: 0px; 
+		bottom:0;
+	}
+	
+	.prim-container{
+		margin:51px auto;
+
+	}
+	
+	.container-button a{
+		
+		font-size: 25px;
+	}
+	.in-sec-container .container-button a{
+		
+		margin-left: 0px;
+	}
+/* services*/
+	.sec-container-header{
+		font-size: 37px;
+		letter-spacing: 0px;
+		position: relative;
+	}
+	.sec-container-header:after{
+		content:"";
+		position: absolute;
+		display: inline-block;
+		width:44px;
+		height:6px;
+		background-color:#f1c71d;
+		left:48%;
+		top:90px;
+		margin-left: 0px; 
+		bottom:0;
+	}
+	.service-content{
+		margin-left: 50px;
+	}
+
+	.sec-container-header h3 span{
+		background-size: 100px;
+		width:100px;
+	}
+	.sec-container-subheader{
+		font-size:27px;
+	}
+	.service-content h4{
+		font-size: 27px;
+	}
+	.service-content p{
+		font-size: 23px;
+		padding-top: 10px;
+	}
+	.sec-container-col{
+		width: 669px;
+		margin:0 auto;
+	}
+
+	.sec-container-col .item-service{
+		float:none;
+		max-width: 669px;
+		margin:50px auto;
+	}
+
+	.in-sec-container .container-button{
+		margin-left: 25%;
+	}
+/*brand experience*/
+	.brand-experience{
+		margin-top: 110px;
+		
+	}
+	.head-brand-experience h3{
+		font-size: 30px;
+		position: relative;
+	}
+	.head-brand-experience h3:after{
+		content:"";
+		position: absolute;
+		display: inline-block;
+		width:44px;
+		height:6px;
+		background-color:#f1c71d;
+		left:48%;
+		top:70px;
+		margin-left: 0px; 
+		bottom:0;
+	}
+	.brand-experience-img{
+		margin-left: 30px;
+	}
+	.brand-experience-img li{
+		padding: 0px;
+	}
+/* guide block*/
+
+	.guide-block{
+		width:669px;
+		float: none;
+		margin: 0 auto;
+		padding: 0px;
+
+	}
+	.img-book img{
+		margin-left: 0%;
+		width: 300px;
+		overflow: visible;
+		margin-top: -125px;
+		position: relative;
+		float:none;
+		
+	}
+	.guide-wrapper{
+		min-height:710px;
+
+	}
+	.guide-wrapper .container-button{
+		margin-top: 0px;
+		font-size: 35px;
+	}
+
+	.guide-block h3 {
+		font-size: 27px;
+		padding-top: 0px;
+		line-height: 33px;
+		
+	}
+	
+	.guide-block p{
+		text-align: center;
+		font-size: 25px;
+		padding-top: 0px;
+		
+	}
+	.warning{
+		color:#ff0000;
+	}
+/*guarantee block*/
+	.ico-guarantee-card h3{
+		background-size: 500px;
+		background-position: center;
+	}
+	.guarantee{
+		margin-top: 10px;
+	}
+	.ico-guarantee-card h3{
+		margin: 0px;
+
+	}
+
+	.guarantee-card-caption p, .guarantee-card-pargh p{
+		font-size: 27px;
+	}
+
+/*Challenge container*/	
+	.challenge-container{
+	position: relative;
+	text-align: center;
+	}
+
+	.challenge-container:before{
+	content:"";
+	display:block;
+	position:absolute;
+	height:100px;
+	width:100%;
+	background: transparent url("../images/green-bg.png") top center no-repeat;
+	background-size: cover;
+	top:-88px;
+	left:0;
+	z-index:2;
+	
+	}
+	.challenge-container h3{
+		font-size: 37px;
+	}
+	.challenge-container p{
+		font-size: 27px;
+	}
+	.challenge-container-button a{
+	 	font-size: 20px;
+	 	padding: 10px;
+	}
+/* Platforms We Use */
+
+/*footer*/
+	.sub-main-footer{
+		padding: 0px;
+	}
+	.featured-img-list{
+		margin:0px;
+	}
+	.col-footer ul{
+		display: none;
+	}
+	.right-footer{
+		padding: 0;
+		margin: 0;
+	}
+	.footer-container .row1 div{
+		float:none;
+		padding: 0px;
+
+	}
+
+
+
+
+
+}
